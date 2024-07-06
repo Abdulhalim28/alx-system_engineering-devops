@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -d '\n' < "$1" | sed 's/\(.\).*/\1/g' | tr '[:lower:]' '[:upper:]'
+print(''.join([line[0] for line in open("An Acrostic") if line.strip()]))
