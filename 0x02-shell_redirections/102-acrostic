@@ -1,0 +1,2 @@
+#!/bin/bash
+awk '{print toupper(substr($0,1,1))}'
